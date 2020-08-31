@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Ломбарды Ювелирной сети 585*Золотой</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<link rel="stylesheet" href="css/main.min.css">	
+
+</head>
+
+<body>
+	<header class="header card">
+      <div id="slide-menu">
+      	<section class="section header-top">
+	        <div class="container is-fullhd">
+	          <div class="level">
+	            <div class="level-left">
+	              <div class="level-item">
+	                <a class="link location modal-call" data-modal="modal-city-select">
+	                  <i class="fa fa-map-marker"></i>
+	                  <span id="header-city">Санкт-Петербург</span>                  
+	                </a>
+	              </div>
+	              <div class="level-item">
+	                <a href="#" class="link">Ломбарды</a>
+	              </div>
+	              <div class="level-item">
+	                <a href="#" class="link">Магазин</a>
+	              </div>
+	            </div>
+	            <div class="level-item">
+	                <a href="tel:88005555585" class="link">
+	                  <i class="fa fa-phone"></i>
+	                  8 800 5555 585
+	                </a>
+	              </div>
+	            <div class="level-right">
+	              <div class="level-item">
+	                <a class="link modal-call" data-modal="modal-enter">
+	                  <i class="fa fa-user"></i>
+	                  Имя Фамилия
+	                </a>
+	              </div>
+	            </div>
+	          </div>          
+	        </div>
+	      </section>
+
+	      <section class="section header-bottom">
+	        <div class="container is-fullhd header-menu">
+	          <div class="level">
+	            <div class="level-item">
+	              <a href="#" class="link">О ломбардах</a>
+	            </div>
+	            <div class="level-item">
+	              <a href="#" class="link">Акции</a>
+	            </div>
+	            <div class="level-item">
+	              <a href="#" class="link">Оплата процентов</a>
+	            </div>
+	            <div class="level-item">
+	              <a href="#" class="link">Тарифы</a>
+	            </div>
+	            <div class="level-item">
+	              <a href="#" class="link">Наши ломбарды</a>
+	            </div>
+	            <div class="level-item is-hidden-mobile">
+	              <a href="#" class="link header-logo">
+	                <img src="img/logo_585_lombard.svg" alt="585 Ломбард">
+	              </a>
+	            </div>
+	          </div>
+	        </div>
+	      </section>
+      </div>
+
+      <div class="header-logo is-hidden-tablet">
+        <a href="#" class="link">
+          <img src="img/logo_585_lombard.svg" alt="585 Ломбард">
+        </a>
+      </div>
+
+      <a role="button" class="navbar-burger burger" data-target="slide-menu">
+	      <span></span>
+	      <span></span>
+	      <span></span>
+	    </a>
+    </header>
+    <div class="overlay"></div>
+	
+	<section class="section">
+		<div class="container is-fullhd">
+		    <nav class="breadcrumb is-small has-succeeds-separator" aria-label="breadcrumbs">
+				<ul>
+					<li><a href="/">Главная</a></li>
+					<li class="is-active"><a href="#" aria-current="page">Личный кабинет</a></li>
+				</ul>
+			</nav>
+
+			<h1 class="title is-2 is-uppercase">Личный кабинет</h1>
+		</div>
+	</section>
+    
+
+    <section class="section lombard-personal">
+      <div class="container is-fullhd">
+        <div class="box is-dark">
+
+			<div class="tabs">
+			  <ul class="columns is-centered">
+			    <li class="tabs-item column is-one-third" data-tab-name="tab-profile">
+			    	<a href="personal.html" class="title is-4">Личные данные</a>
+			    </li>
+			    <li class="tabs-item column is-one-third" data-tab-name="tab-cabinet">
+			    	<a href="cabinet.html" class="title is-4">Мои залоговые билеты</a>
+			    </li>
+			    <li class="tabs-item column is-one-third is-active" data-tab-name="tab-vacation">
+			    	<a href="vacation.html" class="title is-4">Кредитные каникулы</a>
+			    </li>
+			  </ul>
+			</div>
+
+			<div class="lombard-personal-content box">
+				<div class="tabs-content">
+					<div class="tabs-content-item tab-vacation is-active">
+						<div class="content">
+							<div class="step" id="step-passport">
+								<p>Введите серию и&nbsp;номер вашего паспорта. В&nbsp;результате проверки на&nbsp;номер вашего сотового телефона, указанного при получении займа, будет выслан <span class="accent">SMS-код</span> подтверждения.</p>
+								<h2 class="title is-3">Паспорт</h2>
+								<form name="1" class="is-form-validation">
+									<div class="field is-grouped is-grouped-multiline field-required">
+										<div class="control">
+											<input class="input" type="text" data-validation="number" name="pass_s" placeholder="серия" id="pass_s" size="6" required>
+										</div>
+										<div class="control">
+											<input class="input" type="text" data-validation="number" name="pass_n" placeholder="номер" id="pass_n" size="15" required>
+										</div>
+									</div>
+									<div class="mt-3 mb-5">
+										<button class="button is-primary" type="submit" data-next="step-sms">Отправить</button>
+									</div>
+								</form>
+							</div>
+
+							<div class="step is-hidden" id="step-sms">
+								<p>Введите SMS-код для подтверждения.</p>
+								<h2 class="title is-3">SMS-код</h2>
+								<form class="is-form-validation">
+									<div class="field is-grouped is-grouped-multiline field-required">
+										<div class="control">
+											<input class="input" type="text" data-validation="number" size="6" required>
+										</div>
+										<p class="help">Неверный код</p>
+									</div>
+									<div class="mt-3 mb-5">
+										<button class="button is-primary" type="submit" data-next="step-apply">Подтвердить</button>
+									</div>
+								</form>
+							</div>
+
+							<div class="step is-hidden" id="step-apply">
+								<h2 class="title is-3">Кредитные каникулы</h2>
+								<p>Уважаемый, [Имя, Фамилия]!</p>
+								<p>В данном разделе вы можете оформить заявление на предоставления кредитных каникул по вашему займу.</p>
+								<p class="accent">Обращаем ваше внимание!</p>
+								<p>Начисление процентов на период кредитных каникул не приостанавливается! Все представленные документы будут проходить проверку в ФНС.</p>
+								<p>Для предоставления кредитных каникул по вашему займу необходимо предоставить следующий пакет документов:</p>
+								<ul class="is-star-style">
+									<li>Заявление по формату;</li>
+									<li>Справка 2-НДФЛ;</li>
+									<li>Справка из центра занятости о постановке на учёт в качестве безработного;</li>
+									<li>Листок нетрудоспособности, выданный на срок более 1 месяца.</li>
+								</ul>
+								<p>Документы, подтверждающие снижение дохода могут быть предоставлены в течении 90 дней со дня подачи заявления.</p>
+								<p>Для подачи заявления Вы можете скачать шаблони заполнить его по образцу, либо заполнить его on-line.</p>
+								<div class="is-item-file mb-4">
+									<a href="#">
+										<i class="far fa-file-pdf"></i>Шаблон для подачи заявления
+									</a>
+								</div>
+								<div class="has-text-centered mb-6">
+									<a class="button is-primary" data-next="step-apply-1">Заполнить заявление On-Line</a>
+								</div>
+
+								<div class="accordion">						          	
+						          	<button class="accordion-item subtitle is-5 is-capitalized mb-3">Список документов</button>
+									<div class="accordion-content mb-3">
+									  <div class="personal-items-info">
+										<table class="table is-hoverable is-narrow">
+											<tr>
+												<td>Паспорт РФ 5212482185</td>
+												<td width="20%"><a class="button is-text" href="#">Изменить</a></td>
+											</tr>
+										</table>
+									  </div>
+									</div>
+
+									<button class="accordion-item subtitle is-5 is-capitalized mb-3">Список заявлений</button>
+									<div class="accordion-content mb-3">
+									  <div class="personal-items-info">
+										<table class="table is-hoverable is-narrow">
+											<tr>
+												<td>Заявление по <strong>BS000003</strong> от 29.07.2020</td>
+												<td width="20%"><a class="button is-text" href="#" target="_blank">Скачать <i class="fa fa-file ml-2"></i></a></td>
+											</tr>
+											<tr>
+												<td>Заявление по <strong>BS000003</strong> от 29.07.2020</td>
+												<td width="20%"><button class="button is-small">Редактировать</button></td>
+											</tr>
+										</table>
+									  </div>
+									</div>
+								</div>							
+							</div>
+
+							<div class="step is-hidden" id="step-apply-1">
+								<h2 class="title is-3">Заполнение заявления on-line.<br/>Шаг 1 из 3</h2>
+								<div class="columns">
+									<div class="column is-half-desktop">
+										<form class="is-form-validation">
+											<div class="field field-required">
+												<label class="label">Имя</label>
+												<div class="control">
+													<input class="input" type="text" data-validation="text" required>
+												</div>
+												<p class="help">Неверный формат данных</p>
+											</div>
+
+											<div class="field field-required">
+												<label class="label">Фамилия</label>
+												<div class="control">
+													<input class="input" type="text" data-validation="text" required>
+												</div>
+												<p class="help">Неверный формат данных</p>
+											</div>
+
+											<div class="field">
+												<label class="label">Отчество</label>
+												<div class="control">
+													<input class="input" type="text">
+												</div>
+											</div>
+
+											<div class="field field-required">
+												<label class="label">Дата рождения</label>
+												<div class="control has-icons-right">
+													<input class="input is-birthday" type="text" data-validation="date" data-mask="date" required>
+													<span class="icon is-small is-right">
+														<i class="fa fa-calendar"></i>
+													</span>
+												</div>
+												<p class="help">Неверный формат данных</p>
+											</div>
+
+											<div class="field field-required">
+												<label class="label">Место рождения</label>
+												<div class="control">
+													<input class="input" type="text" data-validation="text" required>
+												</div>
+												<p class="help">Неверный формат данных</p>
+											</div>
+
+											<div class="field field-required">
+												<label class="label">E-mail</label>
+												<div class="control">
+													<input class="input" type="email" data-validation="email" required>
+												</div>
+												<p class="help">Неверный формат данных</p>
+											</div>
+
+											<div class="buttons columns">
+												<div class="column">
+													<a class="button is-dark" data-previous="step-apply">Назад</a>
+												</div>
+												
+												<div class="column has-text-right">
+													<button class="button is-primary" type="submit" data-next="step-apply-2">Далее</button>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<div class="step is-hidden" id="step-apply-2">
+								<h2 class="title is-3">Заполнение заявления on-line.<br/>Шаг 2 из 3</h2>
+								<div class="columns">
+									<div class="column is-half-desktop">
+										<form class="is-form-validation">
+											<div class="field field-required">
+												<label class="label">Тип документа</label>
+												<div class="select is-fullwidth">
+													<select>
+														<option>Паспорт РФ</option>
+														<option>Паспорт иностранного гражданина</option>
+														<option>Временное удостоверение гражданина РФ</option>
+														<option>Паспорт моряка</option>
+														<option>Военный билет солдата</option>
+														<option>Удостоверение личности офицера</option>
+														<option>Вид на жительство</option>
+														<option>Удостоверение беженца</option>
+														<option>Удостоверение вынужденного переселенца</option>
+														<option>Справка о рассмотрении заявления о предоставлении временного убежища</option>
+														<option>Свидетельство о предоставлении временного убежища</option>
+														<option>Свидетельство о рассмотрении ходатайства о признании лица беженцем</option>
+														<option>Разрешение на временное проживание</option>
+													</select>
+												</div>
+											</div>
+
+											<div class="columns">
+												<div class="column is-one-third">
+													<div class="field field-required">
+														<label class="label">Серия</label>
+														<div class="control">
+															<input class="input" type="text" data-validation="number" required>
+														</div>
+														<p class="help">Неверный формат данных</p>
+													</div>
+												</div>
+
+												<div class="column">
+													<div class="field field-required">
+														<label class="label">Номер</label>
+														<div class="control">
+															<input class="input" type="text" data-validation="number" required>
+														</div>
+														<p class="help">Неверный формат данных</p>
+													</div>
+												</div>
+											</div>
+
+											<div class="field field-required">
+												<label class="label">Дата выдачи</label>
+												<div class="control has-icons-right">
+													<input class="input is-passport-date" type="text" data-validation="date" data-mask="date" required>
+													<span class="icon is-small is-right">
+														<i class="fa fa-calendar"></i>
+													</span>
+												</div>
+												<p class="help">Неверный формат данных</p>
+											</div>
+
+											<div class="field field-required">
+												<label class="label">Кем выдан</label>
+												<div class="control">
+													<input class="input" type="text" data-validation="text" required>
+												</div>
+												<p class="help">Неверный формат данных</p>
+											</div>
+
+											<div class="field field-required">
+												<label class="label">Адрес регистрации</label>
+												<div class="control">
+													<input class="input" type="text" data-validation="text" required>
+												</div>
+												<p class="help">Неверный формат данных</p>
+											</div>
+
+											<div class="field field-required">
+												<label class="label">Залоговый билет</label>
+												<div class="select is-fullwidth">
+													<select>
+														<option>ТЕ888678</option>
+														<option>ТА325168</option>
+														<option>ТД854957</option>
+													</select>
+												</div>
+											</div>
+
+											<div class="buttons columns">
+												<div class="column">
+													<a class="button is-dark" data-previous="step-apply-1">Назад</a>
+												</div>
+												
+												<div class="column has-text-right">
+													<button class="button is-primary" type="submit" data-next="step-apply-3">Далее</button>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>						
+
+							<div class="step is-hidden" id="step-apply-3">
+								<h2 class="title is-3">Заполнение заявления on-line.<br/>Шаг 3 из 3</h2>
+								<div class="columns">
+									<div class="column is-half-desktop">
+										<form class="is-form-validation">
+											<div class="field field-required">
+												<label class="label">Выберите срок приостановления кредитных обязательств:</label>
+												<div class="control columns is-vcentered is-mobile">
+													<div class="column is-narrow">
+														<label class="radio">
+															<input type="radio" name="period">			
+														</label>
+													</div>
+													<div class="column is-narrow">на срок</div>
+													<div class="column is-narrow">
+														<div class="select">
+															<select>
+																<option>1</option>
+																<option>2</option>
+																<option>3</option>
+																<option>4</option>
+																<option>5</option>
+																<option>6</option>
+															</select>
+														</div>
+													</div>												
+												</div>
+												<div class="control columns is-vcentered">
+													<div class="column is-narrow">
+														<label class="radio">
+															<input type="radio" name="period" checked>
+														</label>
+													</div>
+													<div class="column is-narrow">
+														<div class="control has-icons-right">
+															<input class="input is-range-date is-start-date" type="text" data-validation="date" data-mask="date" required>
+															<span class="icon is-small is-right">
+																<i class="fa fa-calendar"></i>
+															</span>
+														</div>
+													</div>
+													<div class="column is-narrow">до</div>
+													<div class="column is-narrow">
+														<div class="control has-icons-right">
+															<input class="input is-range-date is-end-date" type="text" data-validation="date" data-mask="date" required>
+															<span class="icon is-small is-right">
+																<i class="fa fa-calendar"></i>
+															</span>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<p class="has-text-grey">Общий срок приостановления не должен превышать - 6 месяцев с даты начала. Дата начала – не более 14 дней до даты обращения.</p>
+
+											<div class="field">
+												<label class="label">Приложите документы к заявлению:</label>
+												<table class="table is-narrow">
+													<tr>
+														<td>Справка 2-НДФЛ:</td>
+														<td>
+															<div class="field">
+																<div class="file has-name dropzone">
+																  <label class="file-label">
+																    <input class="file-input" type="file" name="resume">
+																    <span class="file-cta">
+																      <span class="file-icon">
+																        <i class="fa fa-paperclip"></i>
+																      </span>
+																    </span>
+																    <span class="file-name">Выберите файл</span>
+																  </label>
+																</div>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td>Справка из центра занятости:</td>
+														<td>
+															<div class="field">
+																<div class="file has-name dropzone">
+																  <label class="file-label">
+																    <input class="file-input" type="file" name="resume">
+																    <span class="file-cta">
+																      <span class="file-icon">
+																        <i class="fa fa-paperclip"></i>
+																      </span>
+																    </span>
+																    <span class="file-name">Выберите файл</span>
+																  </label>
+																</div>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td>Лист нетрудоспособности:</td>
+														<td>
+															<div class="field">
+																<div class="file has-name dropzone">
+																  <label class="file-label">
+																    <input class="file-input" type="file" name="resume">
+																    <span class="file-cta">
+																      <span class="file-icon">
+																        <i class="fa fa-paperclip"></i>
+																      </span>
+																    </span>
+																    <span class="file-name">Выберите файл</span>
+																  </label>
+																</div>
+															</div>
+														</td>
+													</tr>
+												</table>
+											</div>
+
+											<div class="buttons columns">
+												<div class="column">
+													<a class="button is-dark" data-previous="step-apply-2">Назад</a>
+												</div>
+												
+												<div class="column has-text-right">
+													<button class="button is-primary" type="submit" data-next="step-apply-end">Далее</button>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<div class="step is-hidden" id="step-apply-end">
+								<h2 class="title is-3">Проверьте корректность заполнения заявления:</h2>
+								<div class="box is-shadowless lombard-personal-apptemplate">
+						            <div class="lombard-personal-apptemplate-head">
+						              <div class="isolated">В&nbsp;ООО &laquo;Ломбарды ЮС-585&raquo;</div>
+
+						              <div>от <span class="inline">Иванова Ивана Ивановича</span> <span class="caption">(фамилия, имя, отчество заемщика)</span></div>
+
+						              <div>
+						                <span class="inline">31.01.1975, г. Миасс, Челябинская обл., Россия</span>
+						                <span class="caption">(дата и&nbsp;место рождения заемщика)</span>
+						              </div>
+
+						              <div>
+						                <span class="inline">паспорт 1234 56789 выдан ОУФМС РФ по Челябинской обл., в г. Миасс 24.09.1999</span>
+						                <span class="caption">(документ, удостоверяющий личность заемщика&nbsp;&mdash; серия номер, дата выдачи)</span>
+						              </div>
+
+						              <div>
+						                <span class="inline">Челябинская обл, г Миасс, пр-кт Автозаводцев, д 36, кв 25</span>
+						                <span class="caption">(адрес регистрации заемщика)</span>
+						              </div>
+						            </div>
+
+						            <div class="lombard-personal-apptemplate-title">Требование об изменении условий договора</div>
+
+						            <div class="lombard-personal-apptemplate-body">
+						              <div>В&nbsp;соответствии с&nbsp;Федеральным законом &#8470;&nbsp;106-ФЗ от&nbsp;03&nbsp;апреля 2020 года &laquo;О&nbsp;внесении изменений в&nbsp;Федеральный закон &bdquo;О&nbsp;Центральном банке Российской Федерации (Банке России)&ldquo; и&nbsp;отдельные законодательные акты Российской Федерации в&nbsp;части особенностей изменения условий кредитного договора, договора займа&raquo; требую приостановить исполнение своих обязательств по&nbsp;кредитному договору (договору займа):</div>
+
+						              <div class="centered">ТД&nbsp;123456 от&nbsp;01.01.2020 <span class="caption">(номер залогового билета, дата заключения договора займа)</span></div>
+
+						              <div>на срок <i>(выбрать один из двух вариантов)</i>:</div>
+
+						              <ul class="lombard-personal-apptemplate-period">
+						                <li>на&nbsp;срок __ месяцев с&nbsp;даты обращения с&nbsp;требованием (дата направления требования).</li>
+						                <div><i>или</i></div>
+						                <li class="checked">с <span class="inline">30.04.2020г.</span> по <span class="inline">10.08.2020г.</span></li>
+						                <div><i>Общий срок приостановления не&nbsp;должен превышать&nbsp;&mdash; 6&nbsp;месяцев с&nbsp;даты начала. Дата начала&nbsp;&mdash; не&nbsp;более 14&nbsp;дней до&nbsp;даты обращения).</i></div>
+						              </ul>
+
+						              <div>на основании:</div>
+
+						              <div>снижения дохода заемщика за&nbsp;месяц, предшествующий месяцу обращения заемщика с&nbsp;настоящим требованием более чем на&nbsp;30&nbsp;процентов по&nbsp;сравнению со&nbsp;среднемесячным доходом за&nbsp;2019&nbsp;год;</div>
+
+						              <div>Настоящим:</div>
+
+						              <ul class="lombard-personal-apptemplate-list">
+						                <li>подтверждаю, что информацию о&nbsp;статусе моего обращения и&nbsp;документы необходимо получать через личный кабинет на&nbsp;сайте 585.su;</li>
+						                <li>обязуюсь представить в&nbsp;течение 90&nbsp;дней документы, подтверждающие снижение моего дохода:
+						                  <ol type="i">
+						                    <li>справка о&nbsp;полученных физическим лицом доходах и&nbsp;удержанных суммах налога по&nbsp;форме, утвержденной федеральным органом исполнительной власти, осуществляющим функции по&nbsp;контролю и&nbsp;надзору за&nbsp;соблюдением законодательства о&nbsp;налогах и&nbsp;сборах, за&nbsp;текущий год и&nbsp;за&nbsp;2019&nbsp;год;</li>
+						                    <li>выписка из&nbsp;регистра получателей государственных услуг в&nbsp;сфере занятости населения&nbsp;&mdash; физических лиц о&nbsp;регистрации гражданина в&nbsp;качестве безработного в&nbsp;соответствии с&nbsp;пунктом 1&nbsp;статьи 3&nbsp;Закона Российской Федерации от&nbsp;19&nbsp;апреля 1991 года &#8470;&nbsp;1032-I &laquo;О&nbsp;занятости населения в&nbsp;Российской Федерации&raquo;;</li>
+						                    <li>листок нетрудоспособности, выданный в&nbsp;порядке, установленном в&nbsp;соответствии с&nbsp;законодательством Российской Федерации об&nbsp;обязательном социальном страховании на&nbsp;случай временной нетрудоспособности и&nbsp;в&nbsp;связи с&nbsp;материнством, на&nbsp;срок не&nbsp;менее одного месяца;</li>
+						                  </ol>
+						                </li>
+						                <li><strong>подтверждаю, что проинформирован о&nbsp;возможных негативных последствиях неподтверждения установления льготного периода, включая уплату процентных платежей, штрафов, пени и&nbsp;неустойки по&nbsp;договору займа за&nbsp;неустановленный льготный период, направления заложенного изделия на&nbsp;реализацию третьим лицам без предварительного уведомления.</strong></li>
+						              </ul>
+
+						              <div>
+						                <div class="lombard-personal-apptemplate-date">30.04.2020</div>
+
+						                <div class="lombard-personal-apptemplate-sign">
+						                  <span>Заёмщик</span>
+						                  <span> /_______________/ <i>(подпись)</i></span>
+						                  <span class="inline">Иванов И.И. <i>(Фамилия, инициалы)</i></span>
+						                </div>
+						              </div>
+						            </div>
+						        </div>
+
+						        <div class="buttons">
+						        	<a class="button is-dark" data-previous="step-apply-3">Назад</a>
+						        </div>
+
+								<div class="has-text-centered">
+									<h6 class="subtitle is-6">Нажимая кнопку «Отправить заявление» я подтверждаю, что:</h6>
+									<form class="is-form-validation">
+										<div class="columns is-centered">
+											<div class="field has-text-left column is-6-widescreen is-8-desktop is-12-tablet">
+											  <div class="control">
+											    <label class="checkbox">
+											      <input type="checkbox" data-validation="checkbox" checked>
+											      <i></i>Заполнял собственноручно
+											    </label>
+											  </div>
+
+											  <div class="control">
+											    <label class="checkbox">
+											      <input type="checkbox" data-validation="checkbox" checked>
+											      <i></i>Проинформирован об условиях предоставления кредитных каникул
+											    </label>
+											  </div>
+
+											  <div class="control">
+											    <label class="checkbox">
+											      <input type="checkbox" data-validation="checkbox" checked>
+											      <i></i>Достоверность предоставленных документов подтверждаю
+											    </label>
+											  </div>
+
+											  <div class="control">
+											    <label class="checkbox">
+											      <input type="checkbox" data-validation="checkbox" checked>
+											      <i></i>Проинформирован о начислении % по займу в период кредитных каникул
+											    </label>
+											  </div>
+											</div>
+										</div>										
+
+										<button class="button is-primary modal-call" type="submit" data-modal="modal-apply-sms">Отправить заявление</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+      </div>
+    </section>
+
+	<footer class="footer">
+		<div class="container is-fullhd">
+			<div class="spoiler is-hidden-tablet">
+				<input type="checkbox" id="footer-menu-spoiler-1">
+				<label class="title is-6 mb-0" for="footer-menu-spoiler-1">Клиентам</label>
+				<ul class="footer-menu">
+					<li><a href="#">Оплата процентов</a></li>
+					<li><a href="#">Тарифы</a></li>
+					<li><a href="#">Акции</a></li>
+					<li><a href="#">Вопросы и ответы</a></li>
+					<li><a href="#">Публичные торги</a></li>
+				</ul>
+			</div>
+			<div class="spoiler is-hidden-tablet">
+				<input type="checkbox" id="footer-menu-spoiler-2">
+				<label class="title is-6 mb-0" for="footer-menu-spoiler-2">О компании</label>
+				<ul class="footer-menu">
+					<li><a href="#">О ломбардах</a></li>
+					<li><a href="#">Наши ломбарды</a></li>
+					<li><a href="#">Правовая информация</a></li>
+				</ul>
+			</div>
+
+			<div class="columns">
+				<div class="column is-3 is-hidden-mobile">
+					<h5 class="title is-5">Клиентам</h5>
+					<ul class="footer-menu">
+						<li><a href="#">Оплата процентов</a></li>
+						<li><a href="#">Тарифы</a></li>
+						<li><a href="#">Акции</a></li>
+						<li><a href="#">Вопросы и ответы</a></li>
+						<li><a href="#">Публичные торги</a></li>
+					</ul>
+				</div>
+
+				<div class="column is-3 is-hidden-mobile">
+					<h5 class="title is-5">О компании</h5>
+					<ul class="footer-menu">
+						<li><a href="#">О ломбардах</a></li>
+						<li><a href="#">Наши ломбарды</a></li>
+						<li><a href="#">Правовая информация</a></li>
+					</ul>
+				</div>
+
+				<div class="column is-3 footer-contacts">
+					<a class="footer-phone" href="tel:88005555585">
+						<i class="fa fa-phone"></i>
+						8 800 5555 585
+					</a>
+					<div class="footer-social">
+						<a href="https://vk.com/zolotoylom" class="button is-primary footer-social-item" target="_blank">
+					    <span class="icon">
+					      <i class="fa fa-vk"></i>
+					    </span>
+					  </a>
+
+					  <a href="https://ok.ru/zolotoylom" class="button is-primary footer-social-item" target="_blank">
+					    <span class="icon">
+					      <i class="fa fa-odnoklassniki"></i>
+					    </span>
+					  </a>
+
+					  <a href="https://www.instagram.com/585lombard/" class="button is-primary footer-social-item" target="_blank">
+					    <span class="icon">
+					      <i class="fa fa-instagram"></i>
+					    </span>
+					  </a>
+					</div>
+				</div>
+
+				<div class="column is-3">
+					<h5 class="title is-5">Подписаться на рассылку</h5>
+					<form class="is-form-validation">
+						<div class="field field-required">
+							<label class="label">E-Mail</label>
+							<div class="control has-icons-left">
+								<input class="input" type="email" data-validation="email" required>
+								<span class="icon is-small is-left">
+									<i class="fa fa-envelope"></i>
+								</span>
+							</div>
+							<p class="help">Укажите электронную почту</p>
+						</div>
+
+						<div class="field">
+						  <div class="control">
+						    <label class="checkbox">
+						      <input type="checkbox" data-validation="checkbox" checked>
+						      <i></i>
+						      Я согласен с условиями <a href="#">оферты</a>
+						    </label>
+						  </div>
+						</div>
+
+						<div class="field">
+							<div class="control buttons is-right">
+									<button class="button is-primary" type="submit">Подписаться</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<div class="content has-text-centered">
+				<p>2012&nbsp;&mdash; 2020, &copy;&nbsp;Ювелирная сеть 585 Все права защищены. Информация, размещённая на&nbsp;данной странице, не&nbsp;является публичной офертой.</p>
+				<img class="footer-logo" src="img/logo_585_lombard.svg" alt="585 Ломбард">
+			</div>
+		</div>
+		
+	</footer>
+
+		<div class="modal" id="modal-question">
+			<div class="modal-background"></div>
+			<div class="modal-card">			
+				<header class="modal-card-head">
+					<p class="modal-card-title">Задать вопрос</p>
+					<button class="delete modal-card-close"></button>
+				</header>
+				
+				<section class="modal-card-body">
+					<form class="is-form-validation">
+						<div class="field field-required">
+							<label class="label">Имя</label>
+							<div class="control">
+								<input class="input" type="text" data-validation="text" required>
+							</div>
+						</div>
+
+						<div class="field">
+							<label class="label">Телефон</label>
+							<div class="control has-icons-left">
+								<input class="input" type="text" data-validation="phone optional" data-mask="phone">
+								<span class="icon is-small is-left">
+									<i class="fa fa-phone"></i>
+								</span>
+							</div>
+							<p class="help">Неверный формат данных</p>
+						</div>
+
+						<div class="field field-required">
+							<label class="label">E-Mail</label>
+							<div class="control has-icons-left">
+								<input class="input" type="email" data-validation="email" required>
+								<span class="icon is-small is-left">
+									<i class="fa fa-envelope"></i>
+								</span>
+							</div>
+							<p class="help">Неверный формат данных</p>
+						</div>
+
+						<div class="field field-required">
+							<label class="label">Ваш вопрос</label>
+							<div class="control">
+								<textarea class="textarea has-fixed-size" rows="2" data-validation="text" required></textarea>
+							</div>
+							<p class="help">Неверный формат данных</p>
+						</div>
+
+						<div class="field is-grouped is-grouped-centered">
+							<div class="control">
+								<input class="button is-link" type="submit" value="Отправить">
+							</div>
+						</div>
+					</form>
+				</section>
+				<footer class="modal-card-foot">&nbsp;</footer>			
+			</div>
+		</div>
+
+		<div class="modal" id="modal-enter">
+			<div class="modal-background"></div>
+			<div class="modal-card">			
+				<header class="modal-card-head">
+					<p class="modal-card-title">
+						Войти
+						<a class="is-size-6 mt-2 modal-next modal-call" data-modal="modal-registration">или Зарегистрироваться</a>
+					</p>					
+					<button class="delete modal-card-close"></button>
+				</header>				
+				
+				<section class="modal-card-body">
+					<div class="notification is-danger is-light is-hidden">
+						<div class="content has-text-centered">
+							Некорректный E-Mail или Пароль
+						</div>						
+					</div>
+					<form class="is-form-validation">
+						<div class="field field-required">
+							<label class="label">E-Mail</label>
+							<div class="control has-icons-left">
+								<input class="input" type="email" data-validation="email" required>
+								<span class="icon is-small is-left">
+									<i class="fa fa-envelope"></i>
+								</span>
+							</div>
+							<p class="help">Неверный формат данных</p>
+						</div>
+
+						<div class="field field-required">
+							<label class="label">Пароль</label>
+							<div class="control is-password">
+								<input class="input" type="password" data-validation="text" required>
+								<span class="icon is-right btn-show-hide-pw">
+									<i class="fa fa-eye"></i>
+								</span>
+							</div>
+							<p class="help">Неверный формат данных</p>
+						</div>
+
+						<div class="field is-grouped is-grouped-centered">
+							<div class="control">
+								<input class="button is-link" type="submit" value="Войти">
+							</div>
+						</div>
+					</form>
+					<div class="content has-text-centered mt-3">
+						<a class="is-link has-text-grey">Забыли пароль?</a>
+					</div>					
+				</section>
+				<footer class="modal-card-foot"></footer>			
+			</div>
+		</div>
+
+		<div class="modal" id="modal-registration">
+			<div class="modal-background"></div>
+			<div class="modal-card">			
+				<header class="modal-card-head">
+					<p class="modal-card-title">
+						Зарегистрироваться
+						<a class="is-size-6 mt-2 modal-next modal-call" data-modal="modal-enter">или Войти в существующий аккаунт</a>
+					</p>					
+					<button class="delete modal-card-close"></button>
+				</header>				
+				
+				<section class="modal-card-body">
+					<div class="notification is-danger is-light is-hidden">
+						<div class="content has-text-centered">
+							Некорректный E-Mail или Пароль
+						</div>						
+					</div>
+					<form class="is-form-validation">
+						<div class="field field-required">
+							<label class="label">Имя</label>
+							<div class="control">
+								<input class="input" type="text" data-validation="text" required>
+							</div>
+						</div>
+
+						<div class="field field-required">
+							<label class="label">E-Mail</label>
+							<div class="control has-icons-left">
+								<input class="input" type="email" data-validation="email" required>
+								<span class="icon is-small is-left">
+									<i class="fa fa-envelope"></i>
+								</span>
+							</div>
+							<p class="help">Неверный формат данных</p>
+						</div>
+
+						<div class="field field-required">
+							<label class="label">Пароль</label>
+							<div class="control is-password">
+								<input class="input" type="password" data-validation="text" required>
+								<span class="icon is-right btn-show-hide-pw">
+									<i class="fa fa-eye"></i>
+								</span>
+							</div>
+							<p class="help">Неверный формат данных</p>
+						</div>
+
+						<div class="field field-required">
+							<label class="label">Повторите пароль</label>
+							<div class="control is-password">
+								<input class="input" type="password" data-validation="text" required>
+								<span class="icon is-right btn-show-hide-pw">
+									<i class="fa fa-eye"></i>
+								</span>
+							</div>
+							<p class="help">Неверный формат данных</p>
+						</div>
+
+						<div class="field">
+						  <div class="control">
+						    <label class="checkbox">
+						      <input type="checkbox" data-validation="checkbox" checked>
+						      <i></i>
+						      Я согласен с условиями <a href="#">оферты</a>
+						    </label>
+						  </div>
+						</div>
+
+						<div class="field is-grouped is-grouped-centered">
+							<div class="control">
+								<input class="button is-link modal-next modal-call" data-modal="modal-succsess-registration" type="submit" value="Зарегистрироваться">
+							</div>
+						</div>
+					</form>					
+				</section>
+				<footer class="modal-card-foot"></footer>			
+			</div>
+		</div>
+
+		<div class="modal" id="modal-succsess-registration">
+			<div class="modal-background"></div>
+			<div class="modal-card">			
+				<header class="modal-card-head">
+					<p class="modal-card-title">Регистрация успешна</p>					
+					<button class="delete modal-card-close"></button>
+				</header>				
+				
+				<section class="modal-card-body">
+					<div class="content has-text-centered">
+						<p class="mb-0">Для завершения регистрации вам необходимо подтвердить E-Mail.</p>
+						<p class="mb-0">На вашу почту Lavr***oy.ru было направлено письмо.</p>
+						<p class="mb-0">Для подтверждения перейдитепо ссылке в письме.</p>
+						<p class="mt-5"><a class="is-link has-text-grey is-size-6">Отправить письмо ещё раз</a></p>
+					</div>		
+				</section>
+				<footer class="modal-card-foot"></footer>			
+			</div>
+		</div>
+
+		<div class="modal" id="modal-apply-sms">
+			<div class="modal-background"></div>
+			<div class="modal-card">			
+				<header class="modal-card-head">
+					<p class="modal-card-title">Введите код из sms</p>					
+					<button class="delete modal-card-close"></button>
+				</header>				
+				
+				<section class="modal-card-body">
+					<div class="content">
+						<p class="mb-0">Sms с кодом отправлено на номер <nobr>+799* ***-**-57</nobr></p>
+						<form class="is-form-validation">
+							<div class="field is-horizontal columns is-vcentered mb-0">
+								<label class="label column is-narrow mb-0">Введите код из sms</label>
+								<div class="control column is-3">
+									<input class="input has-text-centered" type="text" data-validation="number" required>
+								</div>
+							</div>
+							<div class="has-text-centered mb-0 has-text-grey">
+								<div><a class="button is-text">Запросить код заново</a></div>
+								<div class="mb-4"><span class="icon"><i class="fa fa-stopwatch"></i></span>Через 53 секунды</div>
+								<button class="button is-primary">Да, верно</button>
+							</div>
+						</form>						
+					</div>		
+				</section>
+				<footer class="modal-card-foot">
+					<div class="has-text-centered is-size-7 has-text-grey mb-3 mr-5 ml-5">Если у вас нет доступа к номеру - обратитесь по номеру <a href="tel:88005555585">8&nbsp;800&nbsp;5555&nbsp;585</a></div>
+				</footer>			
+			</div>
+		</div>
+
+		<div class="modal" id="modal-city">
+			<div class="modal-content">									
+		     	<div class="content has-text-centered">
+		     		<h5 class="subtitle is-5" id="location-city"></h5>
+		     		<p class="has-text-grey-light">Это ваш город?</p>
+		     		<div class="buttons is-centered">
+		     			<button class="button city-confirm">Да, верно</button>
+	          			<button class="button modal-next modal-call" data-modal="modal-city-select">Нет, другой</button>
+		     		</div>
+		     	</div>
+			</div>
+		</div>
+
+		<div class="modal" id="modal-city-select">
+			<div class="modal-content">									
+		     	<div class="content">
+		     		<h5 class="subtitle is-5 has-text-centered">Выберите ваш город</h5>
+		     		<div class="autocomplete-wrapper">
+						  <div class="control has-icons-left">
+								<input id="city" class="input autocomplete js-cityName" type="text" placeholder="Название города" autocomplete="off">
+								<span class="icon is-small is-left">
+									<i class="fa fa-search"></i>
+								</span>
+							</div>
+						</div>
+
+						<ul class="cities">
+							<li><a class="cities-list" data-city="Санкт-Петербург">Санкт-Петербург</a></li>
+							<li><a class="cities-list" data-city="Москва">Москва</a></li>
+							<li><a class="cities-list" data-city="Новосибирск">Новосибирск</a></li>
+							<li><a class="cities-list" data-city="Ростов-на-Дону">Ростов-на-Дону</a></li>
+							<li><a class="cities-list" data-city="Екатеринбург">Екатеринбург</a></li>
+						</ul>
+						<a class="has-text-grey-light cities-autodetect">
+							<i class="fa fa-compass"></i>
+							<span>Определить автоматически</span>
+						</a>
+		     	</div>
+			</div>
+		</div>
+
+		<!-- Preloader -->
+		<div class="loader-wrapper">
+		    <div class="loader is-loading"></div>
+		</div> 
+
+		<script src="libs/api.yandex/api-maps.yandex.js" type="text/javascript"></script>
+		<script src="js/scripts.min.js" type="text/javascript"></script>
+		<script src="js/common.js" type="text/javascript"></script>
+
+</body>
+</html>

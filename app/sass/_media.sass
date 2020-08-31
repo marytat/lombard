@@ -1,0 +1,200 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.tabs
+		.title
+			margin: 0 1rem
+	.lombard-calculator		
+		&-footer
+			position: relative
+			bottom: 0
+
+@media only screen and (max-width : 1024px)
+	.lombard-calculator
+		.radio
+			display: inline-block
+
+	.slick
+		&-arrow
+			&.slick-prev
+				left: 0
+			&.slick-next
+				right: 0
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.header-logo
+		width: 200px
+	.tabs
+		.title
+			font-size: 1rem
+	.content
+		table, thead, tbody, th, td, tr
+			display: block
+		table
+			tr:not(:last-child)
+				border-bottom: 1px solid $border
+			th
+				display: none
+			td
+				border: none
+				position: relative
+				margin-bottom: 0.75rem
+				&::before
+					position: absolute
+					top: 0.5rem
+					left: 0.75rem
+					width: 45%
+					padding-right: 5%
+			&.is-list-of-orders
+				td
+					padding-left: 50%
+					&:nth-of-type(1)::before
+						content: 'Залог №'
+					&:nth-of-type(2)::before
+						content: 'Процент (руб/день)'
+					&:nth-of-type(3)::before
+						content: 'Срок займа'
+					&:nth-of-type(4)::before
+						content: 'Тип платежа'
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.section
+		padding: 1rem
+	.header
+		margin-bottom: 1rem
+		&-top
+			.level-left
+				.level-item:not(:last-child)
+					padding-right: 0
+		&.is-sticky
+			& + section
+				padding-top: 52px		
+		&.is-open
+			& ~ .overlay
+				display: block
+	#slide-menu
+		display: none
+		position: absolute
+		min-height: 100%
+		width: 250px
+		top: 52px
+		left: 0
+		z-index: 10
+		.level-left
+			margin-bottom: .75rem
+		.level-item
+			padding: 0 2rem
+			justify-content: flex-start
+	.header-logo
+		position: absolute
+		top: 18px
+		left: 0
+		right: 0
+		margin: auto
+
+	.box
+		padding: 1.5rem 0.5rem
+
+	.carousel
+		.slider-container
+			.slider-item 
+				img 
+					// height: auto
+					// width: auto
+		&#banner-carousel
+			.slider-navigation-previous
+				left: 0
+			.slider-navigation-next
+				right: 0
+		&#feedback-carousel
+			.slider-navigation-previous
+				left: -5px
+			.slider-navigation-next
+				right: -5px
+
+	.title
+		&.is-2
+			font-size: 2rem
+		&.is-bordered
+			font-size: 1.5rem
+			span
+				display: block
+				&::after
+					width: 50%
+
+	.lombard-calculator
+		.box
+			padding: 1rem
+		.radio
+			&+.radio
+				margin: 0
+		&-result
+			margin: 0
+
+	.lombard-questions
+		.accordion
+			.subtitle
+				line-height: 1.6rem
+
+	.tabs
+		ul
+			display: block
+	.content
+		ul
+			&.is-star-style
+				margin-left: 0
+				li::before
+					margin-right: 0.6rem
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.tabs
+		.title
+			margin: 0 0.5rem
+	.lombard-personal
+		&-content
+			.button
+				font-size: 0.9rem
+	.lombard-torgi-item
+		font-size: 1.2rem
+		&::after
+			width: 1.5rem
+			height: 1.5rem
+			line-height: 1.5rem
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
